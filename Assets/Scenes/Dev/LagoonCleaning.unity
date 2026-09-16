@@ -1712,54 +1712,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28d89498426c2a64ca6aa9730b91a682, type: 3}
---- !u!1 &1491975978 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7445063901409115478, guid: 92fedb625cafeb14a8512282bc8c09c1,
-    type: 3}
-  m_PrefabInstance: {fileID: 8631513482351862643}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1491975983
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1491975978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78564e3e0c2d8c65cb6601a38bee530d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: SMARC.SMARCAssets::ROS.Publishers.ROSTransformTreePublisher
-  topic: /tf
-  NotARobot: 0
-  frequency: 10
-  MapFrameTransform: {fileID: 0}
-  tf_prefix: 
-  OnlyRelative: 0
---- !u!1 &1804637371 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6259671311688705925, guid: 92fedb625cafeb14a8512282bc8c09c1,
-    type: 3}
-  m_PrefabInstance: {fileID: 8631513482351862643}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1804637375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1804637371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78564e3e0c2d8c65cb6601a38bee530d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: SMARC.SMARCAssets::ROS.Publishers.ROSTransformTreePublisher
-  topic: /tf
-  NotARobot: 0
-  frequency: 10
-  MapFrameTransform: {fileID: 0}
-  tf_prefix: 
-  OnlyRelative: 0
 --- !u!1001 &3928395295137463277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1965,15 +1917,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6259671311688705925, guid: 92fedb625cafeb14a8512282bc8c09c1,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1804637375}
-    - targetCorrespondingSourceObject: {fileID: 7445063901409115478, guid: 92fedb625cafeb14a8512282bc8c09c1,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1491975983}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92fedb625cafeb14a8512282bc8c09c1, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
